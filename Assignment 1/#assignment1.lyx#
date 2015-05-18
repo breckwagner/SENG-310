@@ -3,6 +3,13 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+
+\newcommand*{\SignatureLine}[1]{%
+    \par\noindent\makebox[2.5in]{\hrulefill} \hfill\makebox[2.0in]{\hrulefill}%
+    \par\noindent\makebox[2.5in][l]{#1}      \hfill\makebox[2.0in][l]{Date}%
+}%
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -25,9 +32,10 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing onehalf
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -51,6 +59,8 @@
 \shortcut idx
 \color #008000
 \end_index
+\topmargin 1in
+\bottommargin 1.5in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -108,18 +118,37 @@ App Description:
 Good Money is a financial assistant app designed to help people (specifically
  students and young adults) manage their spending responsibly by keeping
  track of their monthly income and expenses.
- This app is able to link up to a personal bank account and sync credit/debit
+\end_layout
+
+\begin_layout Standard
+Budgeting is not something that students in their freshman year have experience
+ with.
+ It is easy to indulge in reckless spending and lose track of one’s savings.
+ Even into one’s twenties, young adults are still often not cognizant of
+ their spending habits.
+ Many would like to budget responsibly, but either lack the organizational
+ skills or don’t know where to start.
+ This app is intended to make being financially responsible easy for students
+ and young adults who lack experience with budgeting.
+ 
+\end_layout
+
+\begin_layout Standard
+This app is able to link up to a personal bank account and sync credit/debit
  cards to automatically update the app.
  As the user makes purchases, the application will graph out the expenses,
  income, and net balance over time and categorize what type of purchases
  were made (eg.
  eating out, entertainment, groceries).
- This will show the user how their money is being spent on what items throughout
- the month.
- Some other features could also include having the app analyze the user’s
- expenses and make recommendations based off spending habits and setting
- monthly goals and keeping track of progress of how much to spend/day to
- reach a goal.
+ This will show the user how their money is being spent throughout the month.
+\end_layout
+
+\begin_layout Standard
+Good Money analyzes the user’s expenses and makes recommendations on the
+ basis of spending habits.
+ It then sets monthly goals and keeps track of the user’s progress with
+ respect to those goals.
+ 
 \end_layout
 
 \begin_layout Subsection*
@@ -128,8 +157,16 @@ A short, one-paragraph description of the users you plan to interview (no
 \end_layout
 
 \begin_layout Standard
-We are planning to interview people who are between 18 to 40.
- These people might need money to raise their life qualities.
+The app could be useful to people of all ages; however, we are planning
+ to interview people who are between 18 to 30.
+ We will be interviewing students at UVic who are in their second year and
+ up.
+ Specifically, we would like to target freshmen who may not have experience
+ with personal finance (but realistically there are few freshmen on campus
+ during summer semester).
+ Also, we would like to mainly focus on those students that do not have
+ meal plans and are not in the dorms because these individuals are the most
+ likely to have a need for financial management.
  
 \end_layout
 
@@ -138,70 +175,283 @@ Sample Interview Questions:
 \end_layout
 
 \begin_layout Enumerate
-Demographics (optional) 
+1) Demographics (optional) 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Age (or I prefer not to respond) 
+Age (written response or I prefer not to respond)
 \end_layout
 
 \begin_layout Enumerate
-Gender (or I prefer not to respond) LOL 
+Gender (written response or I prefer not to respond) 
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-We might asking some question about education background here.
+What is your highest level of education completed? (selected from list:
+ post secondary, some university, finished university, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Are you proficient with using software for everyday tasks? (are they able
+ to use computer to help them improve their lives?) 
+\end_layout
+
+\begin_layout Enumerate
+Do you own a smartphone? (are they applicable for a smartphone application?)
  
 \end_layout
 
 \begin_layout Enumerate
-Are you proficient with using a software to solve problems in your life?
- (Are they able to use computer to help them improve their lives.) 
-\end_layout
-
-\begin_layout Enumerate
-Do you own a smartphone? (are they applicable for a smartphone application)
- 
-\end_layout
-
-\begin_layout Enumerate
-Do you have a regular income? (to understand is features could be added
+Do you have a regular income? (to understand if features could be added
  related to an income) 
 \end_layout
 
 \begin_layout Enumerate
 Is financial management/having a monthly budget something that you currently
  need to keep track of? (would this potentially replace something the applicant
- already does) 
+ already does)
 \end_layout
 
 \begin_layout Enumerate
 How do you currently manage your monthly expenses? (get more ideas from
- the user for the app) What kind of items do you regularly buy throughout
- the month? (figure out good categories for spending) (we might asking some
- question like where do you spend your income every month? eg education
- rent food or something else) 
+ the user for the app)
+\end_layout
+
+\begin_layout Enumerate
+Where do you regularly spend your income throughout the month (eg.
+ education, rent, food, etc)? (figure out good categories for spending)
 \end_layout
 
 \begin_layout Enumerate
 What do you currently do to save money? (ideas for how the app could make
- recommendations) (is this one asking a same question like question 6 does?)
- Are you currently saving money for traveling or purchasing something? (One
- of selling points of our application is that the application can help people
- to find out how long does it take to achieve their saving goals.
- ) Do you think purchasing information is a very private thing to yourself?(Some
-one might not want others to see what they purchase because they think it
- is private.
- ) Do you allow someone who you trust to help you manage your expenses.
- (If answer is yes, we sell our app to him.)
+ recommendations) 
+\end_layout
+
+\begin_layout Enumerate
+Are you currently saving money for traveling or purchasing something? (one
+ of the selling points of our application is that the application can help
+ people to find out how long does it take to achieve their saving goals)
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do you think purchasing information is a very private thing to yourself?
+ (someone might not want others to see what they purchase because they think
+ it is private) 
+\end_layout
+
+\begin_layout Enumerate
+Do you allow someone who you trust to help you manage your expenses? (if
+ the answer is yes, we can sell our app to him/her)
+\end_layout
+
+\begin_layout Enumerate
+Do you wish you handled your money better than you currently do?
+\end_layout
+
+\begin_layout Enumerate
+What do you think keeps you from managing your money better than you currently
+ do? 
+\end_layout
+
+\begin_layout Enumerate
+Are you living in residence at UVic? 
+\end_layout
+
+\begin_layout Enumerate
+Are you on a meal plan? 
 \end_layout
 
 \begin_layout Standard
-The consent form you plan to use.
- You should modify the sample consent form attached to this assignment:
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Consent Form For Participation in the Study Entitled: “User Attitudes Towards
+ Financial Assistant App” 
+\end_layout
+
+\begin_layout Standard
+\noindent
+You are being invited to participate in a study entitled User Attitudes
+ Towards Financial Assistant App that is being conducted by Jonathan Bowen,
+ Alex Lam, Di Mei, and Richard Wagner, and you may contact them if you have
+ further questions by email (jonbowen@uvic.ca) 
+\end_layout
+
+\begin_layout Standard
+\noindent
+The purpose of this research project is to design and evaluate the user
+ interface of a simple drawing tool.
+ You will be interviewed about your previous use of drawing tools.
  
+\end_layout
+
+\begin_layout Standard
+\noindent
+You will be asked to answer a series of questions about your experience
+ with computer drawing tools, the tasks you use them for, the features you
+ like, and new features you would like to have.
+ You will also be asked for some demographic information (age, occupation,
+ etc.).
+ Your participation should require about 15 minutes of your time.
+ The results will be reported in a project report for SENG 310 in the Faculty
+ of Engineering at the University of Victoria.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Your participation is completely voluntary and you can withdraw from the
+ study at any time, without explanation.
+ You have the right to refuse to answer any questions you do not wish to
+ answer.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Any data collected in the study will remain confidential; interview results
+ and questionnaires will be kept in a locked filing cabinet in a locked
+ office.
+ Only the principal and co-investigators (Jonathan Bowen, Alex Lam, Di Mei,
+ and Richard Wagner) will have access to the data.
+ Your name will not be attached to any published results, and your anonymity
+ will be protected by using code numbers to identify results obtained from
+ individual subjects.
+ 
+\end_layout
+
+\begin_layout Standard
+Your interview will be audiotaped (videotaped) and the tape will be erased
+ immediately after your responses are coded in written form.
+ 
+\end_layout
+
+\begin_layout Standard
+Whether you participate or choose not to participate will have no bearing
+ on your grade/employment status/academic standing/job/services received.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{.5in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+noindent
+\backslash
+makebox[2.5in]{
+\backslash
+hrulefill} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\backslash
+makebox[2.0in]{
+\backslash
+hrulefill}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+noindent
+\backslash
+makebox[2.5in][l]{Signature of participant}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\backslash
+makebox[2.0in][l]{Researcher}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{.5in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+noindent
+\backslash
+makebox[2.5in]{
+\backslash
+hrulefill} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\backslash
+makebox[2.0in]{
+\backslash
+hrulefill}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+par
+\backslash
+noindent
+\backslash
+makebox[2.5in][l]{Date}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\backslash
+makebox[2.0in][l]{Phone}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
