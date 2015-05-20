@@ -1,8 +1,8 @@
 # Assignment 2
 
 ## Assignment - In progress
-Complete the form, then choose the appropriate button at the bottom.
-| A | B |
+
+| | |
 | --- | --- |
 | Title |	Assignment 2 - Requirements |
 | Due |	May 26, 2015 11:00 pm |
