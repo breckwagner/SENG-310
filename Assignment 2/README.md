@@ -4,8 +4,8 @@
 
 | | |
 | --- | --- |
-| Title |	Assignment 2 - Requirements |
-| Due |	May 26, 2015 11:00 pm |
+| Title |	Assignment 3 - Design and Prototyping |
+| Due |	Jun 7, 2015 11:00 pm |
 | Status | In progress |
 | Grade | --- |
 
@@ -14,6 +14,6 @@ see attached for full specification
 
 ###### Additional resources for assignment
 
-File attachment [Assignment_2_marking_scheme.pdf](assets/Assignment_2_marking_scheme.pdf)	( 81 KB; May 5, 2015 1:16 pm )
+File attachment [assignment3.pdf](assets/assignment3.pdf)	( 96 KB; May 19, 2015 11:30 am )
 
-File attachment [assignment2.pdf](assets/assignment2.pdf)	( 90 KB; May 6, 2015 9:24 am )
+File attachment [Assignment_3_marking_scheme.pdf](assets/Assignment_3_marking_scheme.pdf)	( 79 KB; May 19, 2015 11:30 am )
