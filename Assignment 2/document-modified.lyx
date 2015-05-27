@@ -1,0 +1,435 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+SENG 310 - Assignment 2 
+\end_layout
+
+\begin_layout Author
+Richard Wagner (V00767821), Alex Lam (V00195731), 
+\begin_inset Newline newline
+\end_inset
+
+Jonathan Bowen (V00735637), Di Mei (V00783547)
+\end_layout
+
+\begin_layout Date
+2015-05-26
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Interviews
+\end_layout
+
+\begin_layout Subsection
+Interviews and Typical Users: 
+\end_layout
+
+\begin_layout Paragraph
+A semi-structured interview was conducted on four undergraduate students
+ from the University of Victoria (male and female) between the ages of 19-23
+ in their second year or later of an undergraduate program to gather requirement
+s for Good Money, a financial assistant app.
+ 
+\end_layout
+
+\begin_layout Subsection
+Interview Questions: 
+\end_layout
+
+\begin_layout Standard
+1) Demographics (optional) 
+\end_layout
+
+\begin_layout Enumerate
+Age (written response or I prefer not to respond)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Gender (written response or I prefer not to respond) 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is your highest level of education completed? (selected from list:
+ post secondary, some university, finished university, etc.) 
+\end_layout
+
+\begin_layout Enumerate
+Are you proficient with using software for everyday tasks? (are they able
+ to use computer to help them improve their lives?) 
+\end_layout
+
+\begin_layout Enumerate
+Do you own a smartphone? (are they applicable for a smartphone application?)
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do you have a regular income? (to understand if features could be added
+ related to an income) 
+\end_layout
+
+\begin_layout Enumerate
+Is financial management/having a monthly budget something that you currently
+ need to keep track of? (would this potentially replace something the applicant
+ already does)
+\end_layout
+
+\begin_layout Enumerate
+How do you currently manage your monthly expenses? (get more ideas from
+ the user for the app)
+\end_layout
+
+\begin_layout Enumerate
+Where do you regularly spend your income throughout the month (eg.
+ education, rent, food, etc)? (figure out good categories for spending)
+\end_layout
+
+\begin_layout Enumerate
+What do you currently do to save money? (ideas for how the app could make
+ recommendations) 
+\end_layout
+
+\begin_layout Enumerate
+Are you currently saving money for traveling or purchasing something? (one
+ of the selling points of our application is that the application can help
+ people to find out how long does it take to achieve their saving goals)
+ 
+\end_layout
+
+\begin_layout Enumerate
+Do you think purchasing information is a very private thing to yourself?
+ (someone might not want others to see what they purchase because they think
+ it is private) 
+\end_layout
+
+\begin_layout Enumerate
+Do you allow someone who you trust to help you manage your expenses? (if
+ the answer is yes, we can sell our app to him/her)
+\end_layout
+
+\begin_layout Enumerate
+Do you wish you handled your money better than you currently do?
+\end_layout
+
+\begin_layout Enumerate
+What do you think keeps you from managing your money better than you currently
+ do? 
+\end_layout
+
+\begin_layout Enumerate
+Are you living in residence at UVic? 
+\end_layout
+
+\begin_layout Enumerate
+Are you on a meal plan? 
+\end_layout
+
+\begin_layout Subsection
+Description of system’s users based on interviews
+\end_layout
+
+\begin_layout Paragraph
+Interviewees were owners of smartphones who self-reported proficiency with
+ using software applications for everyday tasks.
+ Half of the interviewees had a regular income.
+ Interviewees expressed different degrees of satisfaction with their ability
+ to handle their finances, from wishing they were more financially-savvy
+ to feeling like they handled their expenses well.
+ All four of the interviewees had no misgivings about giving an app access
+ to financial information.
+ 
+\end_layout
+
+\begin_layout Subsection
+Differences in responses from expectations 
+\end_layout
+
+\begin_layout Paragraph
+Unexpectedly, two of the four interviewees reported having a system for
+ handling their money (one used a spreadsheet and the other used pen-and-paper
+ book-keeping).
+ One of the interviewees assumed that we were developing a desktop application
+ throughout the course of the interview.
+ We were also surprised to find that one interviewee wasn’t interested in
+ a financial planning app.
+\end_layout
+
+\begin_layout Section
+System Tasks (List of tasks the system must support)
+\end_layout
+
+\begin_layout Enumerate
+Setting up a profile.
+ The app charts out a budget on the basis of a user’s income and projected
+ needs.
+ In order for the app to provide its core functionality, then, it needs
+ to have information about the user’s income, goals, and priorities.
+ Good Money also needs to be synced to a user’s bank account(s), and so
+ all of this information needs to be given by the user.
+ This feature is a precondition for all of the other functionality of the
+ app, and so is of primary importance.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Viewing weekly progress.
+ At any given time, a user needs to be able to track their progress with
+ respect to their budgeting goals, as well as see how much money is available
+ for different categories of purchases.
+ This is an important and frequently used feature that needs to be easy
+ and convenient.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Adjusting financial needs.
+ If users’ financial profile changes at any time for reasons other than
+ their spending habits (which the app can track automatically), users need
+ to be able to update their profile accordingly.
+ For instance, a raise, an unexpected monetary gift or an unforeseen expense
+ need to be entered into the app so it can adjust its budget plan accordingly.
+\end_layout
+
+\begin_layout Section
+Personas
+\end_layout
+
+\begin_layout Standard
+We have two personas: Sally Barnes and John Mark.
+\end_layout
+
+\begin_layout Subsection
+Sally Barnes Persona
+\end_layout
+
+\begin_layout Paragraph
+Sally Barnes is a 4th year geology major at UVic.
+ She is currently taking 4 courses to finish her degree and she has a part
+ time job as a waitress at Swiss Chalet.
+ She loves shopping, but she also wants to save enough money so she can
+ eventually move out of her parent’s house after she graduates.
+ Between school and her job, she doesn’t have much time to balance her finances
+ and judge whether she should buy more clothes.
+ Since she’s always playing with her new iPhone, she wants an app that can
+ help her sort out her income and expenses and track her savings for a new
+ rental suite.
+\end_layout
+
+\begin_layout Subsection
+John Mark Persona
+\end_layout
+
+\begin_layout Paragraph*
+John Mark is a 2nd year software engineering major at UVic.
+ Has a phone, but tries not to use data because he is on a low data plan.
+ John is highly tech savvy.
+ Independence is important to him, and so he lives off campus and works
+ at a web design company while he is at school.
+ His goal is to make it through school without relying on his parents, while
+ developing his career.
+ So far he’s succeeded.
+ Lately, however, John is feeling like he isn’t socializing or having much
+ fun in his busy life, and so he’s thinking about ways that he can take
+ time out of his busy schedule to do fun things with his friends.
+\end_layout
+
+\begin_layout Section
+Task Scenarios
+\end_layout
+
+\begin_layout Subsection
+Basic Budgeting
+\end_layout
+
+\begin_layout Paragraph
+Sally wants to figure out where to start with budgeting.
+ She is, frankly, not aware of what she needs to do to organize her spending
+ habits.
+ She accordingly creates an account with Good Money and grants the app access
+ to her bank accounts.
+ Sally is asked a series of questions about her spending habits in various
+ categories of expenses, as well as the fees for graduation, her final academic
+ courses, and rent.
+ Sally enters each of these fields in sequence.
+ The app then takes all of the information about Sally’s income, goals,
+ and regular expenses, and generates a concrete budgeting plan for her.
+ Sally views the amount of “free spending money” she has for the week for
+ shopping, buying food, etc.
+ She also views a budget summary page on which a visualization of money
+ free to spend in the future is displayed in an intuitive, colourful way.
+ Sally now has an intuitive, easy way to access a plan that will reliably
+ allow her to graduate, afford rent for when she moves out, and still spend
+ any leftover money in a responsible way.
+ This is a representative scenario for the app, as entering profile information
+ is a necessary action that users must take in order to make use of any
+ of the app’s functionality.
+ One of the most useful functions of this app is to provide an easily understand
+able medium-term projection that takes into account the user’s whole financial
+ situation.
+\end_layout
+
+\begin_layout Subsection
+Expense Projection
+\end_layout
+
+\begin_layout Paragraph
+John would like to branch out from from the university life and explore
+ the area around him, but feels uncomfortable spending money around town
+ because he doesn’t have a stable income and wants to be financially independent
+ from his parents.
+ He decides that he wants to go to a snazzy event downtown with a couple
+ of his friends.
+ He wants to know how much he is safe to spend that night, while still being
+ able to pay rent and pay for education.
+ He opens the Good Money app, and the home screen shows him a summary of
+ the amount of money he has left to spend for the week to stay within budget.
+ His “extra expenses” and “food” budget options are about 35 dollars short
+ for the exorbitant entry fee at this event.
+ He then selects the “add expense” button from the home screen, and enters
+ 35 dollars into the “how much?” field.
+ His monthly projected budget alters accordingly by decreasing the amount
+ of free spending money for the next four weeks.
+ He is explained the repercussions of spending this money, and asked to
+ confirm that the consequences are acceptable.
+ He decides that they are, presses ok, and his current “extra expenses”
+ field increases to $69--enough to attend the event.
+ He then goes to the event and the app monitors his expenses that night.
+ He stays under budget.
+ This is a good example of a regular use of the app.
+ Users will often find themselves in a situation where they need to spend
+ more than their budget allows for the week--for instance, there are often
+ holidays or special events that would require more money than an average
+ week.
+ Critical information that the app provides users is whether, and to what
+ degree, there is an overshoot for a given expense.
+ If one is considering committing themselves to an extra expense, the app
+ also gives this person a projection of the repercussions for making the
+ expense before they go out and make it.
+ 
+\end_layout
+
+\begin_layout Subsection
+Budget Analysis
+\end_layout
+
+\begin_layout Paragraph
+Sally is wondering whether she’s stayed within budget this week.
+ She opens the Good Money app and presses the “Weekly Progress” button on
+ the home page.
+ She is presented with a visualization of the spending amounts in each of
+ her several spending categories.
+ It appears she has spent too much on food but hasn’t spent any of her “free
+ spending money”.
+ As a result, she sees that her weekly budget is not in deficit.
+ She then decides to hold off on going out for dinner that night after classes
+ and goes home to eat.
+ This is an activity that users will likely use every time they log onto
+ the app.
+ Accordingly, it should be made accessible.
+ We anticipate that the most frequent functionality users make use of with
+ the app is just routinely checking their balance, as well as where they
+ are with respect to their weekly goals.
+ 
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Subsection
+Transcribed interview notes
+\end_layout
+
+\begin_layout Standard
+(Excluded from GitHub Upload for Privacy Reasons)
+\end_layout
+
+\end_body
+\end_document
