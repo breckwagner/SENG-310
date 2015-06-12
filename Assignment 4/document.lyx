@@ -1,0 +1,159 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+SENG 310 - Assignment 4
+\end_layout
+
+\begin_layout Author
+Richard Wagner (V00767821), Alex Lam (V00195731), 
+\begin_inset Newline newline
+\end_inset
+
+Jonathan Bowen (V00735637), Di Mei (V00783547)
+\end_layout
+
+\begin_layout Date
+2015-06-14
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Task Scenarios
+\end_layout
+
+\begin_layout Subsection
+Basic Budgeting 
+\end_layout
+
+\begin_layout Standard
+Sally wants to figure out where to start with budgeting.
+ She accordingly creates an account with Good Money and grants the app access
+ to her bank accounts.
+ Sally answers a series of questions about her spending habits in various
+ categories of expenses.
+ The app then takes all of the information about Sally’s income, goals,
+ and regular expenses, and generates a concrete budgeting plan for her.
+ The application gives Sally some feedbacks like free spending money, budget
+ summary, and also visual graph summary.
+ Sally now has an intuitive, easy way to assess a plan to use her money.
+ 
+\end_layout
+
+\begin_layout Subsection
+2.2 Expense Projection 
+\end_layout
+
+\begin_layout Standard
+John would like to branch out from the university life and explore the area
+ around him, but he doesn’t have a stable income and wants to be financially
+ independent from his parents.
+ He decides that he wants to go to a snazzy event downtown with a couple
+ of his friends.
+ He wants to know how much he is safe to spend that night.
+ He opens the Good Money app, and it shows his “extra expenses” and “food”
+ budget options are about 35 dollars short for the exorbitant entry fee
+ at this event.
+ He then selects the “add expense” button from the home screen, and enters
+ 35 dollars into the “how much?” field.
+ His monthly projected budget alters accordingly by decreasing the amount
+ of free spending money for the next four weeks.
+ He is explained the repercussions of spending this money, and asked to
+ confirm that the consequences are acceptable.
+ He decides that they are, presses ok, and his current “extra expenses”
+ field increases to $69–enough to attend the event.
+ 
+\end_layout
+
+\begin_layout Subsection
+2.3 Budget Analysis 
+\end_layout
+
+\begin_layout Standard
+Sally is wondering whether she’s stayed within budget this week.
+ She opens the Good Money app and presses the “Weekly Progress” button on
+ the home page.
+ She is presented with a visualization of the spending amounts in each of
+ her several spending categories.
+ It appears she has spent too much on food but hasn’t spent any of her “free
+ spending money”.
+ As a result, she sees that her weekly budget is not in deficit.
+ She then decides to hold off on going out for dinner that night after classes
+ and goes home to eat.
+\end_layout
+
+\end_body
+\end_document
