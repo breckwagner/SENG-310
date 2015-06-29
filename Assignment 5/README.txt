@@ -1,19 +1,19 @@
 SENG 310 - Assignment 5
 June 26, 2015
-Teamís Name:
+Team‚Äôs Name:
 Furious 4
 
 Names of each of your group members:
-ï V00767821 Richard Wagner (Breck)
-ï V00195731 Alex Lam
-ï V00735637 Jonathan Bowen (Jon)
-ï V00783547 Di Mei (Mason)
+‚Ä¢ V00767821 Richard Wagner (Breck)
+‚Ä¢ V00195731 Alex Lam
+‚Ä¢ V00735637 Jonathan Bowen (Jon)
+‚Ä¢ V00783547 Di Mei (Mason)
 
 1.1	App Description
 Good Money is a financial assistant app designed to help people (specifically students and young adults) manage their spending responsibly by keeping track of their monthly income and expenses.
-Budgeting is not something that students in their freshman year have experience with. It is easy to indulge in reckless spending and lose track of oneís savings. Even into oneís twenties, young adults are still often not cognizant of their spending habits. Many would like to budget responsibly, but either lack the organizational skills or donít know where to start. This app is intended to make being financially responsible easy for students and young adults who lack experience with budgeting.
+Budgeting is not something that students in their freshman year have experience with. It is easy to indulge in reckless spending and lose track of one‚Äôs savings. Even into one‚Äôs twenties, young adults are still often not cognizant of their spending habits. Many would like to budget responsibly, but either lack the organizational skills or don‚Äôt know where to start. This app is intended to make being financially responsible easy for students and young adults who lack experience with budgeting.
 This app is able to link up to a personal bank account and sync credit/debit cards to automatically update the app. As the user makes purchases, the application will graph out the expenses, income, and net balance over time and categorize what type of purchases were made (eg. eating out, entertainment, and groceries). This will show the user how their money is being spent throughout the month.
-Good Money analyzes the userís expenses and makes recommendations on the basis of spending habits. It then sets monthly goals and keeps track of the userís progress with respect to those goals.
+Good Money analyzes the user‚Äôs expenses and makes recommendations on the basis of spending habits. It then sets monthly goals and keeps track of the user‚Äôs progress with respect to those goals.
 
 2.1 Task Scenarios 
 
@@ -21,10 +21,10 @@ Good Money analyzes the userís expenses and makes recommendations on the basis o
 Sally wants to figure out where to start with budgeting. She creates an account with Good Money which gives the app access to her bank account(s).  Sally then goes to the budgeting section of the app where she starts filling in how much she wants to spend on a particular item each week. The app then creates a budgeting plan for the next month with respect to her regular income, along with a certain amount of free spending money.
 
 2.1.2	 Expense Projection
-John wants to go to a special event with his friends, but he is unsure if he has the money to stay within his budget plan and go to the event. He opens the app, and it shows him that with his current plan he has $35 left on ìFoodî and ìEntertainmentî combined for the rest of this week. Since he really wants to go to the event, he decides to adjust his budget plan by adding an extra $35 for this week. Before finalizing these changes, the app shows him how this will affect his free spending money for the rest of the month. After accepting these changes, his monthly budget alters accordingly. 
+John wants to go to a special event with his friends, but he is unsure if he has the money to stay within his budget plan and go to the event. He opens the app, and it shows him that with his current plan he has $35 left on ‚ÄúFood‚Äù and ‚ÄúEntertainment‚Äù combined for the rest of this week. Since he really wants to go to the event, he decides to adjust his budget plan by adding an extra $35 for this week. Before finalizing these changes, the app shows him how this will affect his free spending money for the rest of the month. After accepting these changes, his monthly budget alters accordingly. 
 
 2.1.3	 Budget Analysis
-Sally is wondering whether sheís stayed within budget this week. She opens the app and goes to ìAnalysisî. She is presented with a visualization of the spending amounts in each of her several spending categories. She wants to only view how much she is spending on food this month so she selects the ìMonthî option and the ìFoodî option from the categories of items in her expenses. The graph and pie chart both update. Since she spent too much on food and none of her free spending money, her net balance is also not in deficit.
+Sally is wondering whether she‚Äôs stayed within budget this week. She opens the app and goes to ‚ÄúAnalysis‚Äù. She is presented with a visualization of the spending amounts in each of her several spending categories. She wants to only view how much she is spending on food this month so she selects the ‚ÄúMonth‚Äù option and the ‚ÄúFood‚Äù option from the categories of items in her expenses. The graph and pie chart both update. Since she spent too much on food and none of her free spending money, her net balance is also not in deficit.
 
 3.1 Processes
 
@@ -38,3 +38,5 @@ Password: md19921125
 2. Click Good Money Prototype
 3. Click the Sign In picture to start to view the prototype.
 4. You can click some buttons (e.g. Sign in, Sign up), and they will lead you to another page.
+
+Additional resources for this assignment can be found at - https://github.com/breckwagner/SENG-310/tree/master/Assignment%205
