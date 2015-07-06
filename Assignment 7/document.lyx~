@@ -1,0 +1,415 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+SENG 310 - Assignment 7
+\begin_inset Newline newline
+\end_inset
+
+Evaluation Plan Proposal for Good Money
+\end_layout
+
+\begin_layout Author
+Team: Grandmaster Bash and the 
+\series bold
+Furious 4
+\end_layout
+
+\begin_layout Author
+Richard Wagner (V00767821), Alex Lam (V00195731), 
+\begin_inset Newline newline
+\end_inset
+
+Jonathan Bowen (V00735637), Di Mei (V00783547)
+\end_layout
+
+\begin_layout Date
+2015-07-05
+\end_layout
+
+\begin_layout Section
+Objectives of the study 
+\end_layout
+
+\begin_layout Standard
+The basis of this evaluation plan will be focused on investigating efficiency
+ and ease of use of the Good Money app with participants in the app’s target
+ audience.
+ Specifically, we will be looking at these cases while the user is working
+ alone, as the app will mainly be used individually.
+ Some examples of these cases will include observing how easy it is for
+ the user to set up and adjust an existing budget plan, whether users understand
+ what the graphs and pictures in the app represent, and if checking expenses
+ and available funds is efficient and easy.
+ 
+\end_layout
+
+\begin_layout Section
+Participants
+\end_layout
+
+\begin_layout Standard
+The types of participants that we will involve will mainly be Good Money’s
+ target audience.
+ Our participants will include any student who is currently studying at
+ the University of Victoria in any year and faculty.
+ With these types of participants we hope to have a variety of responses.
+ The participants will be working alone on the given tasks (see Measures
+ for more details and why), and each researcher will have one participant
+ they will be studying for this evaluation, giving a total of 4 participants.
+ 
+\end_layout
+
+\begin_layout Section
+Setting 
+\end_layout
+
+\begin_layout Standard
+This study will take place on campus in a controlled environment, and it
+ each session is expected to take 45 minutes or less.
+ This setting was chosen for its ease of access, and it is where students
+ spend a majority of their time.
+ 
+\end_layout
+
+\begin_layout Section
+Tasks
+\end_layout
+
+\begin_layout Standard
+Each participant will perform the following tasks: 
+\end_layout
+
+\begin_layout Enumerate
+Set up a profile
+\end_layout
+
+\begin_layout Enumerate
+Set up the first budget plan
+\end_layout
+
+\begin_layout Enumerate
+Adjust a currently existing budget plan
+\end_layout
+
+\begin_layout Enumerate
+View 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The amount of money left in the “Food” category for the week
+\end_layout
+
+\begin_layout Enumerate
+The amount of money left in the “Gas” category for the week
+\end_layout
+
+\begin_layout Enumerate
+The proportion of budget allocated to the “Other” category
+\end_layout
+
+\begin_layout Enumerate
+The net balance for the month in full screen
+\end_layout
+
+\begin_layout Enumerate
+The expense breakdown by category in full screen
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sign in and logout
+\end_layout
+
+\begin_layout Enumerate
+Go to settings and back to Main page
+\end_layout
+
+\begin_layout Standard
+These tasks were chosen to give a full walkthrough of the main functionality
+ of the app.
+ Tasks 1) and 2) are pre-requisites to use of the app, and 3), 4) and 5)
+ are tasks most users will be performing on a regular basis.
+\end_layout
+
+\begin_layout Section
+Data
+\end_layout
+
+\begin_layout Subsection
+Quantitative Data
+\end_layout
+
+\begin_layout Standard
+For quantitative data, we will be observing 
+\end_layout
+
+\begin_layout Enumerate
+the time it takes to complete each task (by comparing the time it takes
+ for an experienced user to a new user), 
+\end_layout
+
+\begin_layout Enumerate
+the number of unnecessary taps to complete each task, and 
+\end_layout
+
+\begin_layout Enumerate
+the participants’ response on the System Usability Scale (SUS).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+System Usability Scale (SUS)
+\end_layout
+
+\begin_layout Standard
+The SUS (Brooke 1986) is a standard questionnaire tool for measuring the
+ usability of a system using 10 items on a Likert scale ranging from strongly
+ agree to strongly disagree.
+ The 10 items on the SUS we will be using are: 
+\end_layout
+
+\begin_layout Enumerate
+I think that I would like to use this system frequently.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I found the system unnecessarily complex.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I thought the system was easy to use.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I think that I would need the support of a technical person to be able to
+ use this system.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I found the various functions in this system were well integrated.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I thought there was too much inconsistency in this system.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I would imagine that most people would learn to use this system very quickly.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I found the system very cumbersome to use.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I felt very confident using the system.
+ 
+\end_layout
+
+\begin_layout Enumerate
+I needed to learn a lot of things before I could get going with this system.
+\end_layout
+
+\begin_layout Standard
+A recent empirical evaluation of the SUS offered the following recommendations
+ for interpreting SUS scores: “products which are at least passable have
+ SUS scores above 70, with better products scoring in the high 70s to upper
+ 80s.
+ Truly superior products score better than 90.
+ Products with scores of less than 70 should be considered candidates for
+ increased scrutiny and continued improvement and should be judged to be
+ marginal at best” (Bangor et al., 2008).
+ The averaged SUS scores will be evaluated according to these guidelines.
+ 
+\end_layout
+
+\begin_layout Subsection
+Qualitative Data
+\end_layout
+
+\begin_layout Standard
+For qualitative data, we would like to expand on some of the responses on
+ the SUS by having a more open discussion on a few of the points.
+ In particular, we would like to discuss with the user 
+\end_layout
+
+\begin_layout Enumerate
+what were the things that made it easy (or difficult) to set up an account
+ and budget plan, 
+\end_layout
+
+\begin_layout Enumerate
+what made them feel confident (or not) about setting up an account and budget
+ plan, 
+\end_layout
+
+\begin_layout Enumerate
+what parts of the graphs and pictures in the app made sense (or not) 
+\end_layout
+
+\begin_layout Standard
+As this is more of a natural discussion about the usability app, we hope
+ that both the researcher and participant have more spontaneous questions
+ and feedback that will be recorded during the evaluation.
+\end_layout
+
+\begin_layout Section
+Measures
+\end_layout
+
+\begin_layout Standard
+Users will be instructed to complete the tasks listed in section 4.
+ The verbal protocol to be used will be natural observation.
+ This measure was chosen because Good Money is an individual financial planning
+ app intended to be used solely by one user.
+ Although we will not have insight into the users’ thoughts at the time
+ of the task, the post discussion will allow us to probe users’ thoughts
+ in a way that is sensitive to their performance in a natural context.
+ Allowing the user to complete each task without assistance in the way an
+ ordinary naive user would will tell us about the efficiency and ease of
+ learning in the app’s intended context of use.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+As participants complete tasks, the researcher will record the time it takes
+ to complete each task and the number of unnecessary taps.
+ After completing all the tasks, the participant will fill out the SUS questionn
+aire regarding various tasks (this is done after all tasks so as to not
+ interrupt the user for each task).
+ Lastly, the researcher and participant will have a “post interview” open
+ discussion about general usability performance using the questions in the
+ Qualitative Data section.
+\end_layout
+
+\begin_layout Standard
+References
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Brooke, J.
+ (1986).
+ "SUS: a "quick and dirty" usability scale".
+ In P.
+ W.
+ Jordan, B.
+ Thomas, B.
+ A.
+ Weerdmeester, & A.
+ L.
+ McClelland.
+ Usability Evaluation in Industry.
+ London: Taylor and Francis.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Bangor, A., Kortum P., Miller J.
+ (2008).
+ An Empirical Evaluation of the System Usability Scale.
+ International Journal of Human-Computer Interaction, 24(6), 574-594.
+ DOI: 10.1080/10447310802205776 
+\end_layout
+
+\begin_layout Section*
+Appendix
+\end_layout
+
+\begin_layout Subsection*
+System Usability Scale
+\end_layout
+
+\end_body
+\end_document
